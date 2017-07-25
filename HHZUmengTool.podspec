@@ -96,6 +96,10 @@ Pod::Spec.new do |s|
       one.subspec 'share' do |three|
         three.source_files = 'HHZUmengTool/tools/share/*.{h,m}'
       end
+
+      one.subspec 'login' do |three|
+        three.source_files = 'HHZUmengTool/tools/login/*.{h,m}'
+      end
   end
 
   # s.public_header_files = "Classes/**/*.h"

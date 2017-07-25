@@ -1,5 +1,5 @@
 //
-//  HHZUmengTool.h
+//  HHZUmengShareTool.h
 //  HHZUmengTool
 //
 //  Created by 陈哲是个好孩子 on 2017/7/25.
@@ -10,11 +10,11 @@
 #import <UMSocialCore/UMSocialCore.h>
 #import <UShareUI/UShareUI.h>
 
-typedef void(^RHUMengShareToolSelectionBlock)(UMSocialPlatformType platformType,NSDictionary * userInfo,UMSocialMessageObject * messageObject);
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHZUmengTool : NSObject
+typedef void(^RHUMengShareToolSelectionBlock)(UMSocialPlatformType platformType,NSDictionary * userInfo,UMSocialMessageObject * messageObject);
+
+@interface HHZUmengShareTool : NSObject
 
 +(void)shareText:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block;
 

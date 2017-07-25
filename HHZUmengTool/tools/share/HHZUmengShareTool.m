@@ -1,14 +1,14 @@
 //
-//  HHZUmengTool.m
+//  HHZUmengShareTool.m
 //  HHZUmengTool
 //
 //  Created by 陈哲是个好孩子 on 2017/7/25.
 //  Copyright © 2017年 陈哲是个好孩子. All rights reserved.
 //
 
-#import "HHZUmengTool.h"
+#import "HHZUmengShareTool.h"
 
-@implementation HHZUmengTool
+@implementation HHZUmengShareTool
 
 +(void)shareText:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block
 {

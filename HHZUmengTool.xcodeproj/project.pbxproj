@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740875071F26F69D00074AAE /* HHZUmengLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740875061F26F69D00074AAE /* HHZUmengLoginTool.m */; };
+		7408750A1F26F6AE00074AAE /* HHZUmengShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740875091F26F6AE00074AAE /* HHZUmengShareTool.m */; };
 		747E42361F26EF8B0011F025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747E42351F26EF8B0011F025 /* main.m */; };
 		747E42391F26EF8B0011F025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747E42381F26EF8B0011F025 /* AppDelegate.m */; };
 		747E423C1F26EF8B0011F025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747E423B1F26EF8B0011F025 /* ViewController.m */; };
 		747E423F1F26EF8B0011F025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747E423D1F26EF8B0011F025 /* Main.storyboard */; };
 		747E42411F26EF8B0011F025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747E42401F26EF8B0011F025 /* Assets.xcassets */; };
 		747E42441F26EF8B0011F025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747E42421F26EF8B0011F025 /* LaunchScreen.storyboard */; };
-		747E424F1F26EFFC0011F025 /* HHZUmengTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 747E424E1F26EFFC0011F025 /* HHZUmengTool.m */; };
 		F4E6B7064DD70332E6A6AA0E /* libPods-HHZUmengTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9962C6468535FFB2184E11 /* libPods-HHZUmengTool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A197C28EBDF383B31C42EBB /* Pods-HHZUmengTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUmengTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUmengTool/Pods-HHZUmengTool.debug.xcconfig"; sourceTree = "<group>"; };
 		6C9962C6468535FFB2184E11 /* libPods-HHZUmengTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZUmengTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740875051F26F69D00074AAE /* HHZUmengLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUmengLoginTool.h; sourceTree = "<group>"; };
+		740875061F26F69D00074AAE /* HHZUmengLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUmengLoginTool.m; sourceTree = "<group>"; };
+		740875081F26F6AE00074AAE /* HHZUmengShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUmengShareTool.h; sourceTree = "<group>"; };
+		740875091F26F6AE00074AAE /* HHZUmengShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUmengShareTool.m; sourceTree = "<group>"; };
 		747E42311F26EF8B0011F025 /* HHZUmengTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZUmengTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747E42351F26EF8B0011F025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		747E42371F26EF8B0011F025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +35,6 @@
 		747E42401F26EF8B0011F025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747E42431F26EF8B0011F025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		747E42451F26EF8B0011F025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		747E424D1F26EFFC0011F025 /* HHZUmengTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUmengTool.h; sourceTree = "<group>"; };
-		747E424E1F26EFFC0011F025 /* HHZUmengTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUmengTool.m; sourceTree = "<group>"; };
 		7FCEB29423E1A40B61839F7B /* Pods-HHZUmengTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUmengTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUmengTool/Pods-HHZUmengTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +59,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		740874FF1F26F69000074AAE /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				740875001F26F69000074AAE /* login */,
+				740875011F26F69000074AAE /* share */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		740875001F26F69000074AAE /* login */ = {
+			isa = PBXGroup;
+			children = (
+				740875051F26F69D00074AAE /* HHZUmengLoginTool.h */,
+				740875061F26F69D00074AAE /* HHZUmengLoginTool.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		740875011F26F69000074AAE /* share */ = {
+			isa = PBXGroup;
+			children = (
+				740875081F26F6AE00074AAE /* HHZUmengShareTool.h */,
+				740875091F26F6AE00074AAE /* HHZUmengShareTool.m */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
 		747E42281F26EF8B0011F025 = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +107,7 @@
 		747E42331F26EF8B0011F025 /* HHZUmengTool */ = {
 			isa = PBXGroup;
 			children = (
-				747E424B1F26EFEF0011F025 /* tools */,
+				740874FF1F26F69000074AAE /* tools */,
 				747E42371F26EF8B0011F025 /* AppDelegate.h */,
 				747E42381F26EF8B0011F025 /* AppDelegate.m */,
 				747E423A1F26EF8B0011F025 /* ViewController.h */,
@@ -97,23 +127,6 @@
 				747E42351F26EF8B0011F025 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		747E424B1F26EFEF0011F025 /* tools */ = {
-			isa = PBXGroup;
-			children = (
-				747E424C1F26EFEF0011F025 /* share */,
-			);
-			path = tools;
-			sourceTree = "<group>";
-		};
-		747E424C1F26EFEF0011F025 /* share */ = {
-			isa = PBXGroup;
-			children = (
-				747E424D1F26EFFC0011F025 /* HHZUmengTool.h */,
-				747E424E1F26EFFC0011F025 /* HHZUmengTool.m */,
-			);
-			path = share;
 			sourceTree = "<group>";
 		};
 		B5C98A8B4E27E06EB856A4D9 /* Frameworks */ = {
@@ -248,9 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				747E423C1F26EF8B0011F025 /* ViewController.m in Sources */,
-				747E424F1F26EFFC0011F025 /* HHZUmengTool.m in Sources */,
+				740875071F26F69D00074AAE /* HHZUmengLoginTool.m in Sources */,
 				747E42391F26EF8B0011F025 /* AppDelegate.m in Sources */,
 				747E42361F26EF8B0011F025 /* main.m in Sources */,
+				7408750A1F26F6AE00074AAE /* HHZUmengShareTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
