@@ -18,14 +18,14 @@
 
 +(void)loginAuthWeiXinWithCurrentViewController:(id)currentViewController callBack:(HHZUmengLoginToolCompleteBlock)block
 {
-    [[UMSocialManager defaultManager] getUserInfoWithPlatform:UMSocialPlatformType_Sina currentViewController:currentViewController completion:^(id result, NSError *error) {
+    [[UMSocialManager defaultManager] getUserInfoWithPlatform:UMSocialPlatformType_WechatSession currentViewController:currentViewController completion:^(id result, NSError *error) {
         block(((UMSocialUserInfoResponse *)result),error);
     }];
 }
 
 +(void)loginAuthXinLangWeiBoWithCurrentViewController:(id)currentViewController callBack:(HHZUmengLoginToolCompleteBlock)block
 {
-    [[UMSocialManager defaultManager] getUserInfoWithPlatform:UMSocialPlatformType_WechatSession currentViewController:currentViewController completion:^(id result, NSError *error) {
+    [[UMSocialManager defaultManager] getUserInfoWithPlatform:UMSocialPlatformType_Sina currentViewController:currentViewController completion:^(id result, NSError *error) {
         block(((UMSocialUserInfoResponse *)result),error);
     }];
 }
