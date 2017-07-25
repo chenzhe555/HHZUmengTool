@@ -12,8 +12,8 @@
 
 +(void)shareText:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configDefaultPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareText:text];
         block(platformType,userInfo,obj);
     }];
@@ -21,8 +21,8 @@
 
 +(void)shareImage:(id)image thumbImage:(id)thumbImage callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configDefaultPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareImage:image thumbImage:thumbImage];
         block(platformType,userInfo,obj);
     }];
@@ -30,8 +30,8 @@
 
 +(void)shareImageAndText:(NSString *)text image:(id)image thumbImage:(id)thumbImage callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configImageAndTextPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configImageAndTextPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareImage:image thumbImage:thumbImage];
         obj.text = text;
         block(platformType,userInfo,obj);
@@ -40,8 +40,8 @@
 
 +(void)shareWebPageTitle:(NSString *)title description:(NSString *)descr thumbImage:(id)thumbImage webPageUrl:(NSString *)webPageUrl callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configDefaultPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareWebPageTitle:title description:descr thumbImage:thumbImage webPageUrl:webPageUrl];
         block(platformType,userInfo,obj);
     }];
@@ -49,8 +49,8 @@
 
 +(void)shareMusicTitle:(NSString *)title description:(NSString *)descr thumbImage:(id)thumbImage musicUrl:(NSString *)musicUrl callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configDefaultPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareMusicTitle:title description:descr thumbImage:thumbImage musicUrl:musicUrl];
         block(platformType,userInfo,obj);
     }];
@@ -58,8 +58,8 @@
 
 +(void)shareVideoTitle:(NSString *)title description:(NSString *)descr thumbImage:(id)thumbImage videoUrl:(NSString *)videoUrl callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configDefaultPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareVideoTitle:title description:descr thumbImage:thumbImage videoUrl:videoUrl];
         block(platformType,userInfo,obj);
     }];
@@ -67,8 +67,8 @@
 
 +(void)shareMiniProgramTitle:(NSString *)title description:(NSString *)descr thumbImage:(id)thumbImage webUrl:(NSString *)webUrl userName:(NSString *)userName path:(NSString *)path callBack:(RHUMengShareToolSelectionBlock)block
 {
+    [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        [self configDefaultPreDefinePlatforms];
         UMSocialMessageObject * obj = [self generateShareMiniProgramTitle:title description:descr thumbImage:thumbImage webUrl:webUrl userName:userName path:path];
         block(platformType,userInfo,obj);
     }];

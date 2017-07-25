@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CD52E22A203B69CDE412822 /* libPods-HHZUmengTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 039B671A08CD49DBBCDB84F2 /* libPods-HHZUmengTool.a */; };
+		722F437A0EADFF5DB40FE68B /* libPods-HHZUmengTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F46FF5108CE7077E7FC172 /* libPods-HHZUmengTool.a */; };
 		740875071F26F69D00074AAE /* HHZUmengLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740875061F26F69D00074AAE /* HHZUmengLoginTool.m */; };
 		7408750A1F26F6AE00074AAE /* HHZUmengShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740875091F26F6AE00074AAE /* HHZUmengShareTool.m */; };
 		747E42361F26EF8B0011F025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747E42351F26EF8B0011F025 /* main.m */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		039B671A08CD49DBBCDB84F2 /* libPods-HHZUmengTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZUmengTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A197C28EBDF383B31C42EBB /* Pods-HHZUmengTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUmengTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUmengTool/Pods-HHZUmengTool.debug.xcconfig"; sourceTree = "<group>"; };
+		46F46FF5108CE7077E7FC172 /* libPods-HHZUmengTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZUmengTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		740875051F26F69D00074AAE /* HHZUmengLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUmengLoginTool.h; sourceTree = "<group>"; };
 		740875061F26F69D00074AAE /* HHZUmengLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZUmengLoginTool.m; sourceTree = "<group>"; };
 		740875081F26F6AE00074AAE /* HHZUmengShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZUmengShareTool.h; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD52E22A203B69CDE412822 /* libPods-HHZUmengTool.a in Frameworks */,
+				722F437A0EADFF5DB40FE68B /* libPods-HHZUmengTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 		B5C98A8B4E27E06EB856A4D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				039B671A08CD49DBBCDB84F2 /* libPods-HHZUmengTool.a */,
+				46F46FF5108CE7077E7FC172 /* libPods-HHZUmengTool.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
