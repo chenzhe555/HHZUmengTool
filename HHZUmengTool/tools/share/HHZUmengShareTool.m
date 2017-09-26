@@ -10,11 +10,11 @@
 
 @implementation HHZUmengShareTool
 
-+(void)shareText:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block
++(void)shareTitle:(NSString *)title text:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block
 {
     [self configDefaultPreDefinePlatforms];
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        UMSocialMessageObject * obj = [self generateShareText:text];
+        UMSocialMessageObject * obj = [self generateShareTitle:title text:text];
         block(platformType,userInfo,obj);
     }];
 }
@@ -76,9 +76,10 @@
 
 
 #pragma mark 创建各种类型MessageObject
-+(UMSocialMessageObject *)generateShareText:(NSString *)text
++(UMSocialMessageObject *)generateShareTitle:(NSString *)title text:(NSString *)text
 {
     UMSocialMessageObject * obj = [UMSocialMessageObject messageObject];
+    obj.title = title;
     obj.text = text;
     return obj;
 }
@@ -181,5 +182,4 @@
 {
     [UMSocialUIManager setPreDefinePlatforms:@[@(UMSocialPlatformType_WechatSession)]];
 }
-
 @end

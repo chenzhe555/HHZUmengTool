@@ -16,7 +16,7 @@ typedef void(^RHUMengShareToolSelectionBlock)(UMSocialPlatformType platformType,
 
 @interface HHZUmengShareTool : NSObject
 
-+(void)shareText:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block;
++(void)shareTitle:(NSString *)title text:(NSString *)text callBack:(RHUMengShareToolSelectionBlock)block;
 
 +(void)shareImage:(id)image thumbImage:(id)thumbImage callBack:(RHUMengShareToolSelectionBlock)block;
 
